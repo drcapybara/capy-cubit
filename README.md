@@ -26,7 +26,7 @@ $ scarb build
 Run the tests in `src/test`:
 
 ```bash
-$ scarb run test
+$ cairo-test .
 ```
 
 ### Format
