@@ -7,7 +7,6 @@ use array::array_new;
 
 use cubit::tests::helpers::assert_precise;
 
-
 use cubit::types::fixed::ONE;
 use cubit::types::fixed::ONE_u128;
 use cubit::types::fixed::HALF;
