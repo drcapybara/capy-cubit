@@ -1,3 +1,4 @@
+use core::debug::PrintTrait;
 use option::OptionTrait;
 use traits::{Into, TryInto};
 
@@ -403,4 +404,17 @@ fn test_atanh() {
     assert_precise(
         a.atanh(), 27157656144668970000, 'invalid 0.9', Option::None(())
     ); // 1.4722194895832204
+}
+
+#[test]
+#[available_gas(10000000)]
+fn test_factorial() {
+    let res = Fixed::new_unscaled(0, false).factorial();
+    assert(res == Fixed::new_unscaled(1, false), '0! should equal 1');
+
+    let res = Fixed::new_unscaled(10, false).factorial();
+    assert(res == Fixed::new_unscaled(3628800, false), '0! should equal 1');
+
+    let res = Fixed::new_unscaled(15, false).factorial();
+    assert(res == Fixed::new_unscaled(1307674368000, false), '0! should equal 1');
 }

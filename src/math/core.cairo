@@ -26,8 +26,6 @@ fn abs(a: FixedType) -> FixedType {
 }
 
 fn ceil(a: FixedType) -> FixedType {
-    
-    
     let (div_u128, rem_u128) = _split_unsigned(a);
 
     if (rem_u128 == 0_u128) {
@@ -50,6 +48,14 @@ fn div(a: FixedType, b: FixedType) -> FixedType {
 
     // Re-apply sign
     return Fixed::new(res_u256.low, res_sign);
+}
+
+fn factorial(a: FixedType) -> FixedType {
+    if a == Fixed::new_unscaled(0, false) {
+        Fixed::new_unscaled(1, false)
+    } else {
+        a * factorial(a - Fixed::new_unscaled(1, false))
+    }
 }
 
 fn floor(a: FixedType) -> FixedType {

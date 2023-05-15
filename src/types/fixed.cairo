@@ -16,7 +16,6 @@ use cubit::tests::helpers::withdraw_gas_for_tests;
 use gas::withdraw_gas_all;
 
 
-
 // CONSTANTS
 
 const PRIME: felt252 = 3618502788666131213697322783095070105623107215331596699973092056135872020480;
@@ -46,6 +45,7 @@ trait Fixed {
     fn ceil(self: FixedType) -> FixedType;
     fn exp(self: FixedType) -> FixedType;
     fn exp2(self: FixedType) -> FixedType;
+    fn factorial(self: FixedType) -> FixedType;
     fn floor(self: FixedType) -> FixedType;
     fn ln(self: FixedType) -> FixedType;
     fn log2(self: FixedType) -> FixedType;
@@ -79,7 +79,6 @@ impl FixedImpl of Fixed {
     }
 
     fn new(mag: u128, sign: bool) -> FixedType {
-        
         return FixedType { mag: mag, sign: sign };
     }
 
@@ -94,8 +93,6 @@ impl FixedImpl of Fixed {
     }
 
     fn ceil(self: FixedType) -> FixedType {
-        
-        
         return core::ceil(self);
     }
 
@@ -105,6 +102,10 @@ impl FixedImpl of Fixed {
 
     fn exp2(self: FixedType) -> FixedType {
         return core::exp2(self);
+    }
+
+    fn factorial(self: FixedType) -> FixedType {
+        return core::factorial(self);
     }
 
     fn ln(self: FixedType) -> FixedType {

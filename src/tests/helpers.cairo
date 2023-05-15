@@ -33,7 +33,6 @@ fn assert_precise(
 }
 
 fn withdraw_gas_for_tests() {
-
     // IDK why to do this?
     match withdraw_gas_all(get_builtin_costs()) {
         Option::Some(_) => {},
@@ -43,5 +42,4 @@ fn withdraw_gas_for_tests() {
             panic(data);
         },
     }
-
 }
