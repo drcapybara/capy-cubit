@@ -2,7 +2,7 @@
 
 [Built with **`auditless/cairo-template`**](https://github.com/auditless/cairo-template)
 
-A math library with a focus on statistical distributions for machine learning, adapted from [`protostar`](https://github.com/software-mansion/protostar)
+A math library with a focus on statistical distributions for machine learning, adapted from [`cubit`](https://github.com/whatthedev-eth/cubit)
 
 ## How it works
 
@@ -39,7 +39,7 @@ $ scarb fmt
 
 ## Thanks to
 
-- 
+- [whatthedev](https://github.com/whatthedev-eth) and the other contributors of the cubit library, for providing critial cairo infrastructure.
 - The [Quaireaux](https://github.com/keep-starknet-strange/quaireaux) team for coming up with
 this configuration and especially [Abdel](https://github.com/abdelhamidbakhta) for helping me with Cairo 1.0 installation
 - [Paul Berg](https://github.com/PaulRBerg) and the [foundry-template](https://github.com/paulrberg/foundry-template) project which served as inspiration
