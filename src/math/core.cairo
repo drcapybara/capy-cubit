@@ -50,6 +50,7 @@ fn div(a: FixedType, b: FixedType) -> FixedType {
     return Fixed::new(res_u256.low, res_sign);
 }
 
+// Calculate a!, only for positive integers
 fn factorial(a: FixedType) -> FixedType {
     if a == Fixed::new_unscaled(0, false) {
         Fixed::new_unscaled(1, false)
