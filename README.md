@@ -6,45 +6,21 @@ A math library with a focus on statistical distributions for machine learning, a
 
 ## How it works
 
-- No submodules, forks or other heavy machinery
-- Uses [`protostar`](https://github.com/software-mansion/protostar) toolchain for running tests
-- Built as a [Scarb](https://github.com/software-mansion/scarb) package for reusability and uses Scarb dependencies for libraries
-- Has reproducible builds using GitHub Actions
-- Uses Scarb scripts natively for custom commands
-- Includes advanced debugging views like the Sierra intermediate representation
+The Box-Muller transform is a means of ingesting two uniformly distrubuted variables U1 and U2:
 
-### Build
+![BM cos](./img/bm_cos.png) 
 
-Build the repo:
+and
 
-```bash
-$ scarb build
-```
+![BM sin](./img/bm_sin.png)
 
-### Test
+And returning two independent normally distributed variables as a result. This gaussian noise is an important tool in privacy-preserving mechanisms such as DP-SGD for machine learning. We present here the first known example of the Box-Muller transform in the Cairo programming language built with ZK-STARK technology, directly leading to a zero knowledge circuit for provable gaussian noise generation. 
 
-Run the tests in `src/test`:
+## Methodologies:
 
-```bash
-$ cairo-test .
-```
+We generate 200 cryptographically secure random i16 values in rust before passing them into the cairo function. These values can be found in the tests repo. Even for a small sample size, we can observe the normal curve taking shape:
 
-### Format
-
-Format the Cairo source code (using Scarb):
-
-```bash
-$ scarb fmt
-```
-
-## Thanks to
-
-- [whatthedev](https://github.com/whatthedev-eth) and the other contributors of the cubit library, for providing critial cairo infrastructure.
-- The [Quaireaux](https://github.com/keep-starknet-strange/quaireaux) team for coming up with
-this configuration and especially [Abdel](https://github.com/abdelhamidbakhta) for helping me with Cairo 1.0 installation
-- [Paul Berg](https://github.com/PaulRBerg) and the [foundry-template](https://github.com/paulrberg/foundry-template) project which served as inspiration
-- Last but not least, the StarkWare team for building the first smart contract language that is a joy to use
-
+![normal curve](./img/dist.gif)
 
 ## License
 
