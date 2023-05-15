@@ -11,6 +11,7 @@ use cubit::types::fixed::FixedSub;
 // CONSTANTS
 
 const PI_u128: u128 = 57952155664616982739_u128;
+const PI_u64: u128 = 5795215566_u128;
 const HALF_PI_u128: u128 = 28976077832308491370_u128;
 
 // PUBLIC
