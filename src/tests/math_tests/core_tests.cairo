@@ -13,8 +13,8 @@ use cubit::types::fixed::_felt_sign;
 use cubit::math::trig::HALF_PI_u128;
 use cubit::math::trig::PI_u128;
 
-
 #[test]
+#[available_gas(10000000)]
 fn test_into() {
     let a = Fixed::from_unscaled_felt(5);
     assert(a.into() == 5 * ONE, 'invalid result');
