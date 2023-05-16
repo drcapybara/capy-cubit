@@ -16,6 +16,6 @@ And returning two independent normally distributed variables as a result. This g
 
 ## Methodologies:
 
-We generate 200 cryptographically secure random i16 values in rust before passing them into the cairo function. These values can be found in the tests repo. Even for a small sample size, we can observe the normal curve taking shape:
+We generate 1000 cryptographically secure random i16 values in rust before passing them into the cairo function. These values can be found in the tests repo. Even for a small sample size, we can observe the normal curve taking shape:
 
 ![normal curve](./img/dist.gif)
