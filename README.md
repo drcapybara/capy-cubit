@@ -21,3 +21,12 @@ And returning two independent normally distributed variables as a result. This g
 We generate 1000 cryptographically secure random i16 values in rust before passing them into the cairo function. These values can be found in the tests repo. Even for a small sample size, we can observe the normal curve taking shape:
 
 ![normal curve](./img/dist.gif)
+
+## Usage
+
+Execute the run_and_fmt script to generate a new distribution of numbers to pass into the box_muller_transform
+```bash
+$ ./run_and_fmt.sh
+```
+
+The values are stored in the numbers.csv file at the head of this directory.
