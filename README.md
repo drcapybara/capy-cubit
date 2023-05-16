@@ -2,7 +2,7 @@
 
 [Built with **`auditless/cairo-template`**](https://github.com/auditless/cairo-template)
 
-[Adapted from **`cubit`**]([https://github.com/auditless/cairo-template](https://github.com/whatthedev-eth/cubit)
+[Adapted from **`cubit`**](https://github.com/auditless/cairo-template](https://github.com/whatthedev-eth/cubit)
 
 ## How it works
 
