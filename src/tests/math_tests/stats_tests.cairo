@@ -7,2003 +7,2003 @@ use core::debug::PrintTrait;
     #[available_gas(999999999999999)]
     fn test_box_muller_cos() {
 box_muller_transform_sin(
-            Fixed::new_unscaled(21969, false),
-            Fixed::new_unscaled(265, false)
+            Fixed::new_unscaled(9154, false),
+            Fixed::new_unscaled(30846, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(3377, false),
-            Fixed::new_unscaled(2482, false)
+            Fixed::new_unscaled(1743, false),
+            Fixed::new_unscaled(2425, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(11983, false),
-            Fixed::new_unscaled(4369, false)
+            Fixed::new_unscaled(4911, false),
+            Fixed::new_unscaled(5032, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4962, false),
-            Fixed::new_unscaled(8184, false)
+            Fixed::new_unscaled(1287, false),
+            Fixed::new_unscaled(6694, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1730, false),
-            Fixed::new_unscaled(5535, false)
+            Fixed::new_unscaled(9223, false),
+            Fixed::new_unscaled(9394, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23599, false),
-            Fixed::new_unscaled(2677, false)
+            Fixed::new_unscaled(27085, false),
+            Fixed::new_unscaled(9857, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8994, false),
-            Fixed::new_unscaled(26225, false)
+            Fixed::new_unscaled(890, false),
+            Fixed::new_unscaled(30200, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6064, false),
-            Fixed::new_unscaled(28389, false)
+            Fixed::new_unscaled(32713, false),
+            Fixed::new_unscaled(23906, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23340, false),
-            Fixed::new_unscaled(817, false)
+            Fixed::new_unscaled(8006, false),
+            Fixed::new_unscaled(27687, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2716, false),
-            Fixed::new_unscaled(13694, false)
+            Fixed::new_unscaled(15375, false),
+            Fixed::new_unscaled(8381, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5692, false),
-            Fixed::new_unscaled(23770, false)
+            Fixed::new_unscaled(27968, false),
+            Fixed::new_unscaled(27185, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5008, false),
-            Fixed::new_unscaled(15196, false)
+            Fixed::new_unscaled(24972, false),
+            Fixed::new_unscaled(27502, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6509, false),
-            Fixed::new_unscaled(22450, false)
+            Fixed::new_unscaled(19104, false),
+            Fixed::new_unscaled(9228, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23529, false),
-            Fixed::new_unscaled(16237, false)
+            Fixed::new_unscaled(23500, false),
+            Fixed::new_unscaled(3618, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30716, false),
-            Fixed::new_unscaled(4599, false)
+            Fixed::new_unscaled(18700, false),
+            Fixed::new_unscaled(229, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27018, false),
-            Fixed::new_unscaled(9233, false)
+            Fixed::new_unscaled(19279, false),
+            Fixed::new_unscaled(11965, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29608, false),
-            Fixed::new_unscaled(11521, false)
+            Fixed::new_unscaled(10943, false),
+            Fixed::new_unscaled(7286, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2086, false),
-            Fixed::new_unscaled(20455, false)
+            Fixed::new_unscaled(9731, false),
+            Fixed::new_unscaled(29641, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27436, false),
-            Fixed::new_unscaled(30868, false)
+            Fixed::new_unscaled(17580, false),
+            Fixed::new_unscaled(6130, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16660, false),
-            Fixed::new_unscaled(3358, false)
+            Fixed::new_unscaled(17455, false),
+            Fixed::new_unscaled(816, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20021, false),
-            Fixed::new_unscaled(2748, false)
+            Fixed::new_unscaled(2372, false),
+            Fixed::new_unscaled(13585, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(11323, false),
-            Fixed::new_unscaled(19569, false)
+            Fixed::new_unscaled(17333, false),
+            Fixed::new_unscaled(12307, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14173, false),
-            Fixed::new_unscaled(20965, false)
+            Fixed::new_unscaled(19564, false),
+            Fixed::new_unscaled(23832, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31659, false),
-            Fixed::new_unscaled(11913, false)
+            Fixed::new_unscaled(17155, false),
+            Fixed::new_unscaled(20365, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(7120, false),
-            Fixed::new_unscaled(26378, false)
+            Fixed::new_unscaled(23503, false),
+            Fixed::new_unscaled(26879, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2770, false),
-            Fixed::new_unscaled(15686, false)
+            Fixed::new_unscaled(22469, false),
+            Fixed::new_unscaled(28133, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6061, false),
-            Fixed::new_unscaled(13672, false)
+            Fixed::new_unscaled(5222, false),
+            Fixed::new_unscaled(10775, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(26953, false),
-            Fixed::new_unscaled(21001, false)
+            Fixed::new_unscaled(1277, false),
+            Fixed::new_unscaled(18907, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31218, false),
-            Fixed::new_unscaled(18617, false)
+            Fixed::new_unscaled(27915, false),
+            Fixed::new_unscaled(16611, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29062, false),
-            Fixed::new_unscaled(24491, false)
+            Fixed::new_unscaled(17704, false),
+            Fixed::new_unscaled(242, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4171, false),
-            Fixed::new_unscaled(14201, false)
+            Fixed::new_unscaled(17764, false),
+            Fixed::new_unscaled(26709, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13040, false),
-            Fixed::new_unscaled(2329, false)
+            Fixed::new_unscaled(12760, false),
+            Fixed::new_unscaled(18940, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30981, false),
-            Fixed::new_unscaled(77, false)
+            Fixed::new_unscaled(14634, false),
+            Fixed::new_unscaled(14083, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8848, false),
-            Fixed::new_unscaled(6260, false)
+            Fixed::new_unscaled(19954, false),
+            Fixed::new_unscaled(31548, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19529, false),
-            Fixed::new_unscaled(10468, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12378, false),
-            Fixed::new_unscaled(11686, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5326, false),
-            Fixed::new_unscaled(19127, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6709, false),
-            Fixed::new_unscaled(25619, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5340, false),
-            Fixed::new_unscaled(728, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24499, false),
-            Fixed::new_unscaled(11595, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(11401, false),
-            Fixed::new_unscaled(27771, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14480, false),
-            Fixed::new_unscaled(8052, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23858, false),
-            Fixed::new_unscaled(13933, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(27607, false),
-            Fixed::new_unscaled(4376, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19274, false),
-            Fixed::new_unscaled(2139, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9108, false),
-            Fixed::new_unscaled(7135, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24515, false),
-            Fixed::new_unscaled(23975, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3117, false),
-            Fixed::new_unscaled(11814, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4041, false),
-            Fixed::new_unscaled(29353, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23592, false),
-            Fixed::new_unscaled(11947, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6400, false),
-            Fixed::new_unscaled(20955, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2401, false),
-            Fixed::new_unscaled(6735, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19529, false),
-            Fixed::new_unscaled(21228, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30635, false),
-            Fixed::new_unscaled(15748, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24888, false),
-            Fixed::new_unscaled(24376, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2229, false),
-            Fixed::new_unscaled(23708, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7518, false),
-            Fixed::new_unscaled(2494, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9323, false),
-            Fixed::new_unscaled(7351, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17350, false),
-            Fixed::new_unscaled(19511, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12254, false),
-            Fixed::new_unscaled(26836, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23405, false),
-            Fixed::new_unscaled(12251, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24258, false),
-            Fixed::new_unscaled(18254, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29620, false),
-            Fixed::new_unscaled(4974, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(27763, false),
-            Fixed::new_unscaled(6367, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17453, false),
-            Fixed::new_unscaled(22845, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20473, false),
-            Fixed::new_unscaled(30582, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8485, false),
-            Fixed::new_unscaled(29056, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21364, false),
-            Fixed::new_unscaled(9652, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6435, false),
-            Fixed::new_unscaled(24022, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28107, false),
-            Fixed::new_unscaled(2565, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30277, false),
-            Fixed::new_unscaled(18529, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14985, false),
-            Fixed::new_unscaled(25301, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28520, false),
-            Fixed::new_unscaled(12372, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19262, false),
-            Fixed::new_unscaled(5759, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25537, false),
-            Fixed::new_unscaled(10287, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21201, false),
-            Fixed::new_unscaled(224, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(891, false),
-            Fixed::new_unscaled(11131, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2718, false),
-            Fixed::new_unscaled(29317, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22653, false),
-            Fixed::new_unscaled(31577, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30679, false),
-            Fixed::new_unscaled(4869, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19108, false),
-            Fixed::new_unscaled(29568, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31516, false),
-            Fixed::new_unscaled(1883, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17517, false),
-            Fixed::new_unscaled(10232, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23882, false),
-            Fixed::new_unscaled(3770, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26719, false),
-            Fixed::new_unscaled(22871, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25007, false),
-            Fixed::new_unscaled(29728, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6651, false),
-            Fixed::new_unscaled(3363, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31702, false),
-            Fixed::new_unscaled(16083, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20668, false),
-            Fixed::new_unscaled(11494, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16198, false),
-            Fixed::new_unscaled(26409, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26719, false),
-            Fixed::new_unscaled(1504, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15373, false),
-            Fixed::new_unscaled(3397, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17748, false),
-            Fixed::new_unscaled(20759, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(1899, false),
-            Fixed::new_unscaled(32414, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31663, false),
-            Fixed::new_unscaled(24069, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(13161, false),
-            Fixed::new_unscaled(32216, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31815, false),
-            Fixed::new_unscaled(21397, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7043, false),
-            Fixed::new_unscaled(25996, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26820, false),
-            Fixed::new_unscaled(6880, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24341, false),
-            Fixed::new_unscaled(3628, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4986, false),
-            Fixed::new_unscaled(27879, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29179, false),
-            Fixed::new_unscaled(29196, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30414, false),
-            Fixed::new_unscaled(31320, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26916, false),
-            Fixed::new_unscaled(14983, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23524, false),
-            Fixed::new_unscaled(30058, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29267, false),
-            Fixed::new_unscaled(27247, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(932, false),
-            Fixed::new_unscaled(20628, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23751, false),
-            Fixed::new_unscaled(25036, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29455, false),
-            Fixed::new_unscaled(22725, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25264, false),
-            Fixed::new_unscaled(5415, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4231, false),
-            Fixed::new_unscaled(21963, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32020, false),
-            Fixed::new_unscaled(13465, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31592, false),
-            Fixed::new_unscaled(19848, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14521, false),
-            Fixed::new_unscaled(23791, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14982, false),
-            Fixed::new_unscaled(28893, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17524, false),
-            Fixed::new_unscaled(2786, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7521, false),
-            Fixed::new_unscaled(5845, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(10336, false),
-            Fixed::new_unscaled(15640, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(1335, false),
-            Fixed::new_unscaled(12591, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28071, false),
-            Fixed::new_unscaled(3188, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4591, false),
-            Fixed::new_unscaled(15483, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2808, false),
-            Fixed::new_unscaled(8170, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6614, false),
-            Fixed::new_unscaled(29742, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(13003, false),
-            Fixed::new_unscaled(26470, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20694, false),
-            Fixed::new_unscaled(14346, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7041, false),
-            Fixed::new_unscaled(11845, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28160, false),
-            Fixed::new_unscaled(15950, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18168, false),
-            Fixed::new_unscaled(4363, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(343, false),
-            Fixed::new_unscaled(15299, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12014, false),
-            Fixed::new_unscaled(13201, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29528, false),
-            Fixed::new_unscaled(10311, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32027, false),
-            Fixed::new_unscaled(30323, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15728, false),
-            Fixed::new_unscaled(11979, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2875, false),
-            Fixed::new_unscaled(9418, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23185, false),
-            Fixed::new_unscaled(24129, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16945, false),
-            Fixed::new_unscaled(27052, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15750, false),
-            Fixed::new_unscaled(16250, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6833, false),
-            Fixed::new_unscaled(22965, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20977, false),
-            Fixed::new_unscaled(2375, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4686, false),
-            Fixed::new_unscaled(25259, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(940, false),
-            Fixed::new_unscaled(16805, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8626, false),
-            Fixed::new_unscaled(22541, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14097, false),
-            Fixed::new_unscaled(27548, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24495, false),
-            Fixed::new_unscaled(13591, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3567, false),
-            Fixed::new_unscaled(3518, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28906, false),
-            Fixed::new_unscaled(4713, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23358, false),
-            Fixed::new_unscaled(29156, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3711, false),
-            Fixed::new_unscaled(24072, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18152, false),
-            Fixed::new_unscaled(22366, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14248, false),
-            Fixed::new_unscaled(28217, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3945, false),
-            Fixed::new_unscaled(8610, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19715, false),
-            Fixed::new_unscaled(20151, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32663, false),
-            Fixed::new_unscaled(31592, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(11883, false),
-            Fixed::new_unscaled(10761, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(10114, false),
-            Fixed::new_unscaled(333, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19211, false),
-            Fixed::new_unscaled(6112, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31536, false),
-            Fixed::new_unscaled(28423, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5614, false),
-            Fixed::new_unscaled(4261, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(447, false),
-            Fixed::new_unscaled(20066, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8071, false),
-            Fixed::new_unscaled(16435, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24711, false),
-            Fixed::new_unscaled(24769, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18672, false),
-            Fixed::new_unscaled(18215, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17674, false),
-            Fixed::new_unscaled(23314, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6124, false),
-            Fixed::new_unscaled(973, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15094, false),
-            Fixed::new_unscaled(18722, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(11208, false),
-            Fixed::new_unscaled(8952, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32423, false),
-            Fixed::new_unscaled(3431, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24610, false),
-            Fixed::new_unscaled(26056, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16459, false),
-            Fixed::new_unscaled(6375, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22288, false),
-            Fixed::new_unscaled(26060, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7916, false),
-            Fixed::new_unscaled(1646, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4381, false),
-            Fixed::new_unscaled(1515, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9367, false),
-            Fixed::new_unscaled(1628, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12399, false),
-            Fixed::new_unscaled(22733, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31449, false),
-            Fixed::new_unscaled(2024, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16858, false),
-            Fixed::new_unscaled(11656, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16338, false),
-            Fixed::new_unscaled(31278, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19303, false),
-            Fixed::new_unscaled(14270, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29664, false),
-            Fixed::new_unscaled(6122, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16200, false),
-            Fixed::new_unscaled(15537, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22161, false),
-            Fixed::new_unscaled(22018, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3648, false),
-            Fixed::new_unscaled(13515, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16029, false),
-            Fixed::new_unscaled(20422, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31402, false),
-            Fixed::new_unscaled(11978, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18892, false),
-            Fixed::new_unscaled(9968, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30112, false),
-            Fixed::new_unscaled(5512, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2092, false),
-            Fixed::new_unscaled(28977, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22886, false),
-            Fixed::new_unscaled(7764, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25306, false),
-            Fixed::new_unscaled(30532, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31622, false),
-            Fixed::new_unscaled(6131, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8720, false),
-            Fixed::new_unscaled(21210, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7946, false),
-            Fixed::new_unscaled(3817, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28630, false),
-            Fixed::new_unscaled(17022, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7561, false),
-            Fixed::new_unscaled(7744, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25769, false),
-            Fixed::new_unscaled(27184, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21080, false),
-            Fixed::new_unscaled(30490, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32644, false),
-            Fixed::new_unscaled(29772, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18480, false),
-            Fixed::new_unscaled(24247, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32224, false),
-            Fixed::new_unscaled(32076, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2604, false),
-            Fixed::new_unscaled(25721, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8318, false),
-            Fixed::new_unscaled(15903, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17278, false),
-            Fixed::new_unscaled(17112, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18475, false),
-            Fixed::new_unscaled(17916, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6609, false),
-            Fixed::new_unscaled(20065, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24572, false),
-            Fixed::new_unscaled(25126, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14307, false),
-            Fixed::new_unscaled(632, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17690, false),
-            Fixed::new_unscaled(24694, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28718, false),
-            Fixed::new_unscaled(4570, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23329, false),
-            Fixed::new_unscaled(30102, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21129, false),
-            Fixed::new_unscaled(32733, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4369, false),
-            Fixed::new_unscaled(22603, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(27433, false),
-            Fixed::new_unscaled(18729, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16942, false),
-            Fixed::new_unscaled(14173, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12101, false),
-            Fixed::new_unscaled(32124, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26552, false),
-            Fixed::new_unscaled(32463, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24449, false),
-            Fixed::new_unscaled(10665, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6191, false),
-            Fixed::new_unscaled(9116, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(527, false),
-            Fixed::new_unscaled(6843, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22395, false),
-            Fixed::new_unscaled(22325, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19220, false),
-            Fixed::new_unscaled(420, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26360, false),
-            Fixed::new_unscaled(30123, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(1766, false),
-            Fixed::new_unscaled(15426, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7071, false),
-            Fixed::new_unscaled(32411, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9020, false),
-            Fixed::new_unscaled(12331, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18756, false),
-            Fixed::new_unscaled(32010, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15560, false),
-            Fixed::new_unscaled(5170, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(27662, false),
-            Fixed::new_unscaled(11635, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7667, false),
-            Fixed::new_unscaled(4581, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12592, false),
-            Fixed::new_unscaled(31008, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8761, false),
-            Fixed::new_unscaled(18513, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18975, false),
-            Fixed::new_unscaled(9861, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17445, false),
-            Fixed::new_unscaled(28160, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16272, false),
-            Fixed::new_unscaled(29316, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19614, false),
-            Fixed::new_unscaled(23789, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15594, false),
-            Fixed::new_unscaled(9417, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24492, false),
-            Fixed::new_unscaled(3668, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16055, false),
-            Fixed::new_unscaled(15093, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(1466, false),
-            Fixed::new_unscaled(14092, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(12051, false),
-            Fixed::new_unscaled(18908, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7046, false),
-            Fixed::new_unscaled(17179, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5029, false),
-            Fixed::new_unscaled(24145, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4963, false),
-            Fixed::new_unscaled(2417, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7858, false),
-            Fixed::new_unscaled(22234, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3380, false),
-            Fixed::new_unscaled(22354, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30946, false),
-            Fixed::new_unscaled(7261, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23513, false),
-            Fixed::new_unscaled(25901, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20229, false),
-            Fixed::new_unscaled(14081, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(25682, false),
-            Fixed::new_unscaled(26866, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4471, false),
-            Fixed::new_unscaled(17451, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(26509, false),
-            Fixed::new_unscaled(24124, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21471, false),
-            Fixed::new_unscaled(25940, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5438, false),
-            Fixed::new_unscaled(7281, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20831, false),
-            Fixed::new_unscaled(15489, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(13594, false),
-            Fixed::new_unscaled(15779, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7273, false),
-            Fixed::new_unscaled(13928, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32719, false),
-            Fixed::new_unscaled(20875, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(19812, false),
-            Fixed::new_unscaled(22839, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29704, false),
-            Fixed::new_unscaled(31718, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6188, false),
-            Fixed::new_unscaled(18782, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4755, false),
-            Fixed::new_unscaled(14427, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(13211, false),
-            Fixed::new_unscaled(16833, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28085, false),
-            Fixed::new_unscaled(8579, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(2780, false),
-            Fixed::new_unscaled(17720, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20140, false),
-            Fixed::new_unscaled(20861, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15259, false),
-            Fixed::new_unscaled(868, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(11894, false),
-            Fixed::new_unscaled(18387, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24963, false),
-            Fixed::new_unscaled(12282, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22876, false),
-            Fixed::new_unscaled(29474, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32360, false),
-            Fixed::new_unscaled(7067, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(31837, false),
-            Fixed::new_unscaled(2275, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9255, false),
-            Fixed::new_unscaled(109, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(9559, false),
-            Fixed::new_unscaled(23917, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18590, false),
-            Fixed::new_unscaled(22737, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(22255, false),
-            Fixed::new_unscaled(14623, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(4292, false),
-            Fixed::new_unscaled(2071, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(23174, false),
-            Fixed::new_unscaled(1081, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(24281, false),
-            Fixed::new_unscaled(15718, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28853, false),
-            Fixed::new_unscaled(6051, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20050, false),
-            Fixed::new_unscaled(17877, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(5026, false),
-            Fixed::new_unscaled(3389, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(15805, false),
-            Fixed::new_unscaled(26949, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(27470, false),
-            Fixed::new_unscaled(23164, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(20018, false),
-            Fixed::new_unscaled(19194, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(6085, false),
-            Fixed::new_unscaled(16960, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3899, false),
-            Fixed::new_unscaled(20667, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(7389, false),
-            Fixed::new_unscaled(14610, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(21257, false),
-            Fixed::new_unscaled(21251, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(14829, false),
-            Fixed::new_unscaled(13094, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16116, false),
-            Fixed::new_unscaled(1644, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(13000, false),
-            Fixed::new_unscaled(25297, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(10699, false),
-            Fixed::new_unscaled(4974, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(29487, false),
-            Fixed::new_unscaled(15156, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(1781, false),
-            Fixed::new_unscaled(3634, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(16359, false),
-            Fixed::new_unscaled(31345, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(11219, false),
-            Fixed::new_unscaled(21905, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(28159, false),
-            Fixed::new_unscaled(24536, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(30835, false),
-            Fixed::new_unscaled(3099, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(17405, false),
-            Fixed::new_unscaled(14452, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32152, false),
-            Fixed::new_unscaled(31631, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(8386, false),
-            Fixed::new_unscaled(16107, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3035, false),
-            Fixed::new_unscaled(5541, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(32228, false),
-            Fixed::new_unscaled(28128, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(3150, false),
-            Fixed::new_unscaled(19386, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(480, false),
-            Fixed::new_unscaled(27931, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(206, false),
-            Fixed::new_unscaled(8477, false)
-        ).print();
-box_muller_transform_sin(
-            Fixed::new_unscaled(18076, false),
+            Fixed::new_unscaled(7457, false),
             Fixed::new_unscaled(3111, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(7575, false),
-            Fixed::new_unscaled(18311, false)
+            Fixed::new_unscaled(30275, false),
+            Fixed::new_unscaled(30199, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20151, false),
-            Fixed::new_unscaled(23860, false)
+            Fixed::new_unscaled(2524, false),
+            Fixed::new_unscaled(9810, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(10299, false),
-            Fixed::new_unscaled(27395, false)
+            Fixed::new_unscaled(12750, false),
+            Fixed::new_unscaled(6582, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29319, false),
-            Fixed::new_unscaled(23389, false)
+            Fixed::new_unscaled(6399, false),
+            Fixed::new_unscaled(19974, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(11852, false),
-            Fixed::new_unscaled(5591, false)
+            Fixed::new_unscaled(5873, false),
+            Fixed::new_unscaled(325, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27017, false),
-            Fixed::new_unscaled(28366, false)
+            Fixed::new_unscaled(20912, false),
+            Fixed::new_unscaled(5209, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15784, false),
-            Fixed::new_unscaled(24701, false)
+            Fixed::new_unscaled(13016, false),
+            Fixed::new_unscaled(8766, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(7667, false),
-            Fixed::new_unscaled(4491, false)
+            Fixed::new_unscaled(18359, false),
+            Fixed::new_unscaled(1917, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22290, false),
-            Fixed::new_unscaled(28227, false)
+            Fixed::new_unscaled(13638, false),
+            Fixed::new_unscaled(12502, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14935, false),
-            Fixed::new_unscaled(4250, false)
+            Fixed::new_unscaled(20940, false),
+            Fixed::new_unscaled(4436, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16680, false),
-            Fixed::new_unscaled(3087, false)
+            Fixed::new_unscaled(12780, false),
+            Fixed::new_unscaled(21381, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22313, false),
-            Fixed::new_unscaled(28521, false)
+            Fixed::new_unscaled(9254, false),
+            Fixed::new_unscaled(22350, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29414, false),
-            Fixed::new_unscaled(25572, false)
+            Fixed::new_unscaled(26025, false),
+            Fixed::new_unscaled(9958, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31466, false),
-            Fixed::new_unscaled(5772, false)
+            Fixed::new_unscaled(3863, false),
+            Fixed::new_unscaled(15493, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29301, false),
-            Fixed::new_unscaled(29794, false)
+            Fixed::new_unscaled(23288, false),
+            Fixed::new_unscaled(16570, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30536, false),
-            Fixed::new_unscaled(27513, false)
+            Fixed::new_unscaled(27041, false),
+            Fixed::new_unscaled(17974, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14072, false),
-            Fixed::new_unscaled(9652, false)
+            Fixed::new_unscaled(2778, false),
+            Fixed::new_unscaled(29745, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6452, false),
+            Fixed::new_unscaled(32104, false),
+            Fixed::new_unscaled(19274, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24624, false),
+            Fixed::new_unscaled(27051, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30773, false),
+            Fixed::new_unscaled(29223, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23403, false),
+            Fixed::new_unscaled(13049, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7400, false),
+            Fixed::new_unscaled(25693, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21270, false),
+            Fixed::new_unscaled(3827, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(6931, false),
+            Fixed::new_unscaled(30123, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21148, false),
+            Fixed::new_unscaled(13461, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1960, false),
+            Fixed::new_unscaled(17813, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21533, false),
+            Fixed::new_unscaled(9134, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13561, false),
+            Fixed::new_unscaled(26813, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10190, false),
+            Fixed::new_unscaled(14714, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4084, false),
+            Fixed::new_unscaled(29700, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23102, false),
+            Fixed::new_unscaled(19545, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7251, false),
+            Fixed::new_unscaled(17765, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30048, false),
+            Fixed::new_unscaled(27911, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8576, false),
+            Fixed::new_unscaled(2246, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11254, false),
+            Fixed::new_unscaled(12942, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4296, false),
+            Fixed::new_unscaled(22905, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(27055, false),
+            Fixed::new_unscaled(2815, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8085, false),
+            Fixed::new_unscaled(5456, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(6505, false),
+            Fixed::new_unscaled(19540, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28511, false),
+            Fixed::new_unscaled(42, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18965, false),
+            Fixed::new_unscaled(2819, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1138, false),
+            Fixed::new_unscaled(15607, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7698, false),
+            Fixed::new_unscaled(12678, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2365, false),
+            Fixed::new_unscaled(32026, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8070, false),
+            Fixed::new_unscaled(25562, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12880, false),
+            Fixed::new_unscaled(7912, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26448, false),
+            Fixed::new_unscaled(14973, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15944, false),
+            Fixed::new_unscaled(13702, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32725, false),
+            Fixed::new_unscaled(31101, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5460, false),
+            Fixed::new_unscaled(844, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8813, false),
+            Fixed::new_unscaled(19860, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24588, false),
+            Fixed::new_unscaled(29153, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4487, false),
+            Fixed::new_unscaled(12617, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32420, false),
+            Fixed::new_unscaled(16510, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(6336, false),
+            Fixed::new_unscaled(18776, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1156, false),
+            Fixed::new_unscaled(6082, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9374, false),
+            Fixed::new_unscaled(18672, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10843, false),
+            Fixed::new_unscaled(22200, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10328, false),
+            Fixed::new_unscaled(20780, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(455, false),
+            Fixed::new_unscaled(15266, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20399, false),
+            Fixed::new_unscaled(31153, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14154, false),
+            Fixed::new_unscaled(7176, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32338, false),
+            Fixed::new_unscaled(19582, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2732, false),
+            Fixed::new_unscaled(3809, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22742, false),
+            Fixed::new_unscaled(7435, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30929, false),
+            Fixed::new_unscaled(3741, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11756, false),
+            Fixed::new_unscaled(5754, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4534, false),
+            Fixed::new_unscaled(4340, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1310, false),
+            Fixed::new_unscaled(14238, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3597, false),
+            Fixed::new_unscaled(2529, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(904, false),
+            Fixed::new_unscaled(6316, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30870, false),
+            Fixed::new_unscaled(26056, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4654, false),
+            Fixed::new_unscaled(399, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19311, false),
+            Fixed::new_unscaled(23435, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2083, false),
+            Fixed::new_unscaled(32386, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2259, false),
+            Fixed::new_unscaled(17939, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25504, false),
+            Fixed::new_unscaled(30097, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18642, false),
+            Fixed::new_unscaled(9260, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(396, false),
+            Fixed::new_unscaled(7158, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19562, false),
+            Fixed::new_unscaled(23306, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(980, false),
+            Fixed::new_unscaled(18683, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5756, false),
+            Fixed::new_unscaled(9656, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21895, false),
+            Fixed::new_unscaled(15288, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(244, false),
+            Fixed::new_unscaled(6190, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28311, false),
+            Fixed::new_unscaled(26294, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9589, false),
+            Fixed::new_unscaled(8415, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16048, false),
+            Fixed::new_unscaled(25281, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10201, false),
+            Fixed::new_unscaled(19161, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21253, false),
+            Fixed::new_unscaled(2716, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3975, false),
+            Fixed::new_unscaled(27322, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31219, false),
+            Fixed::new_unscaled(16251, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22144, false),
+            Fixed::new_unscaled(29739, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3396, false),
+            Fixed::new_unscaled(30121, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12017, false),
+            Fixed::new_unscaled(16511, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3213, false),
+            Fixed::new_unscaled(21981, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26896, false),
+            Fixed::new_unscaled(30097, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21840, false),
+            Fixed::new_unscaled(11500, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11759, false),
+            Fixed::new_unscaled(25632, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22714, false),
+            Fixed::new_unscaled(20801, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(17494, false),
+            Fixed::new_unscaled(10725, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21922, false),
+            Fixed::new_unscaled(32222, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(17022, false),
+            Fixed::new_unscaled(21018, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7790, false),
+            Fixed::new_unscaled(18116, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29105, false),
+            Fixed::new_unscaled(2726, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9010, false),
+            Fixed::new_unscaled(9762, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28075, false),
+            Fixed::new_unscaled(23414, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(17088, false),
+            Fixed::new_unscaled(19549, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32371, false),
+            Fixed::new_unscaled(8833, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2997, false),
+            Fixed::new_unscaled(29689, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8793, false),
+            Fixed::new_unscaled(6464, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14479, false),
+            Fixed::new_unscaled(12789, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5430, false),
+            Fixed::new_unscaled(22090, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30059, false),
+            Fixed::new_unscaled(6326, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3001, false),
+            Fixed::new_unscaled(12229, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16851, false),
+            Fixed::new_unscaled(17742, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21206, false),
+            Fixed::new_unscaled(15100, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14520, false),
+            Fixed::new_unscaled(30005, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31542, false),
+            Fixed::new_unscaled(13232, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3778, false),
+            Fixed::new_unscaled(19081, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7875, false),
+            Fixed::new_unscaled(30290, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25253, false),
+            Fixed::new_unscaled(28154, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25091, false),
+            Fixed::new_unscaled(17276, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13144, false),
             Fixed::new_unscaled(7549, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24448, false),
-            Fixed::new_unscaled(29353, false)
+            Fixed::new_unscaled(22237, false),
+            Fixed::new_unscaled(16975, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16323, false),
-            Fixed::new_unscaled(2207, false)
+            Fixed::new_unscaled(27967, false),
+            Fixed::new_unscaled(10168, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27334, false),
-            Fixed::new_unscaled(5725, false)
+            Fixed::new_unscaled(29065, false),
+            Fixed::new_unscaled(21503, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28799, false),
-            Fixed::new_unscaled(9946, false)
+            Fixed::new_unscaled(29832, false),
+            Fixed::new_unscaled(30397, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30656, false),
-            Fixed::new_unscaled(1651, false)
+            Fixed::new_unscaled(14133, false),
+            Fixed::new_unscaled(29890, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20054, false),
-            Fixed::new_unscaled(26299, false)
+            Fixed::new_unscaled(12260, false),
+            Fixed::new_unscaled(11885, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22867, false),
-            Fixed::new_unscaled(22036, false)
+            Fixed::new_unscaled(1153, false),
+            Fixed::new_unscaled(23153, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30122, false),
-            Fixed::new_unscaled(24849, false)
+            Fixed::new_unscaled(26032, false),
+            Fixed::new_unscaled(481, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15248, false),
-            Fixed::new_unscaled(20051, false)
+            Fixed::new_unscaled(7001, false),
+            Fixed::new_unscaled(12873, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6267, false),
-            Fixed::new_unscaled(4830, false)
+            Fixed::new_unscaled(15203, false),
+            Fixed::new_unscaled(7326, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(288, false),
-            Fixed::new_unscaled(31941, false)
+            Fixed::new_unscaled(23960, false),
+            Fixed::new_unscaled(5975, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5412, false),
-            Fixed::new_unscaled(8172, false)
+            Fixed::new_unscaled(8834, false),
+            Fixed::new_unscaled(30381, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23331, false),
-            Fixed::new_unscaled(12999, false)
+            Fixed::new_unscaled(18404, false),
+            Fixed::new_unscaled(18032, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4565, false),
-            Fixed::new_unscaled(23957, false)
+            Fixed::new_unscaled(6883, false),
+            Fixed::new_unscaled(6117, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6450, false),
-            Fixed::new_unscaled(19087, false)
+            Fixed::new_unscaled(15757, false),
+            Fixed::new_unscaled(26074, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(7122, false),
-            Fixed::new_unscaled(7713, false)
+            Fixed::new_unscaled(3425, false),
+            Fixed::new_unscaled(18808, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16468, false),
-            Fixed::new_unscaled(12072, false)
+            Fixed::new_unscaled(18609, false),
+            Fixed::new_unscaled(2369, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29028, false),
-            Fixed::new_unscaled(28986, false)
+            Fixed::new_unscaled(15343, false),
+            Fixed::new_unscaled(18064, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27772, false),
-            Fixed::new_unscaled(1022, false)
+            Fixed::new_unscaled(4434, false),
+            Fixed::new_unscaled(12605, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15667, false),
-            Fixed::new_unscaled(20292, false)
+            Fixed::new_unscaled(26191, false),
+            Fixed::new_unscaled(15470, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16980, false),
-            Fixed::new_unscaled(13760, false)
+            Fixed::new_unscaled(32465, false),
+            Fixed::new_unscaled(24808, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18071, false),
-            Fixed::new_unscaled(22301, false)
+            Fixed::new_unscaled(10509, false),
+            Fixed::new_unscaled(22239, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(11995, false),
-            Fixed::new_unscaled(30117, false)
+            Fixed::new_unscaled(22169, false),
+            Fixed::new_unscaled(26860, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12831, false),
-            Fixed::new_unscaled(21007, false)
+            Fixed::new_unscaled(11514, false),
+            Fixed::new_unscaled(5293, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(3200, false),
-            Fixed::new_unscaled(26722, false)
+            Fixed::new_unscaled(29673, false),
+            Fixed::new_unscaled(31709, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23701, false),
-            Fixed::new_unscaled(7394, false)
+            Fixed::new_unscaled(22691, false),
+            Fixed::new_unscaled(16708, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4364, false),
-            Fixed::new_unscaled(32, false)
+            Fixed::new_unscaled(14553, false),
+            Fixed::new_unscaled(30924, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16394, false),
-            Fixed::new_unscaled(4246, false)
+            Fixed::new_unscaled(15467, false),
+            Fixed::new_unscaled(15324, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13484, false),
-            Fixed::new_unscaled(12328, false)
+            Fixed::new_unscaled(27943, false),
+            Fixed::new_unscaled(8565, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23058, false),
-            Fixed::new_unscaled(23082, false)
+            Fixed::new_unscaled(11870, false),
+            Fixed::new_unscaled(2835, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12799, false),
-            Fixed::new_unscaled(10250, false)
+            Fixed::new_unscaled(29187, false),
+            Fixed::new_unscaled(28293, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17993, false),
-            Fixed::new_unscaled(11362, false)
+            Fixed::new_unscaled(22806, false),
+            Fixed::new_unscaled(32021, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20537, false),
-            Fixed::new_unscaled(5752, false)
+            Fixed::new_unscaled(28702, false),
+            Fixed::new_unscaled(4559, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(25394, false),
-            Fixed::new_unscaled(7212, false)
+            Fixed::new_unscaled(27306, false),
+            Fixed::new_unscaled(12639, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(11294, false),
-            Fixed::new_unscaled(26080, false)
+            Fixed::new_unscaled(4753, false),
+            Fixed::new_unscaled(32485, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27648, false),
-            Fixed::new_unscaled(21438, false)
+            Fixed::new_unscaled(29549, false),
+            Fixed::new_unscaled(6784, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27235, false),
-            Fixed::new_unscaled(32741, false)
+            Fixed::new_unscaled(15254, false),
+            Fixed::new_unscaled(21455, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(26181, false),
-            Fixed::new_unscaled(987, false)
+            Fixed::new_unscaled(28736, false),
+            Fixed::new_unscaled(20516, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23229, false),
-            Fixed::new_unscaled(19707, false)
+            Fixed::new_unscaled(7914, false),
+            Fixed::new_unscaled(21645, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12700, false),
-            Fixed::new_unscaled(26533, false)
+            Fixed::new_unscaled(8859, false),
+            Fixed::new_unscaled(15878, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(25480, false),
-            Fixed::new_unscaled(4729, false)
+            Fixed::new_unscaled(29946, false),
+            Fixed::new_unscaled(26969, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18034, false),
-            Fixed::new_unscaled(4132, false)
+            Fixed::new_unscaled(3525, false),
+            Fixed::new_unscaled(23499, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22065, false),
-            Fixed::new_unscaled(6367, false)
+            Fixed::new_unscaled(1929, false),
+            Fixed::new_unscaled(1722, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(275, false),
-            Fixed::new_unscaled(27864, false)
+            Fixed::new_unscaled(20375, false),
+            Fixed::new_unscaled(8377, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8130, false),
-            Fixed::new_unscaled(21053, false)
+            Fixed::new_unscaled(23841, false),
+            Fixed::new_unscaled(9958, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(10851, false),
-            Fixed::new_unscaled(31077, false)
+            Fixed::new_unscaled(7679, false),
+            Fixed::new_unscaled(3779, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19917, false),
-            Fixed::new_unscaled(2641, false)
+            Fixed::new_unscaled(30856, false),
+            Fixed::new_unscaled(20095, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1511, false),
-            Fixed::new_unscaled(19683, false)
+            Fixed::new_unscaled(2808, false),
+            Fixed::new_unscaled(32253, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13444, false),
-            Fixed::new_unscaled(4482, false)
+            Fixed::new_unscaled(13636, false),
+            Fixed::new_unscaled(14327, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30386, false),
-            Fixed::new_unscaled(1822, false)
+            Fixed::new_unscaled(4750, false),
+            Fixed::new_unscaled(14146, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28566, false),
-            Fixed::new_unscaled(6877, false)
+            Fixed::new_unscaled(6668, false),
+            Fixed::new_unscaled(24282, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13921, false),
-            Fixed::new_unscaled(22825, false)
+            Fixed::new_unscaled(22344, false),
+            Fixed::new_unscaled(22150, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5353, false),
-            Fixed::new_unscaled(5972, false)
+            Fixed::new_unscaled(30868, false),
+            Fixed::new_unscaled(29564, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2441, false),
-            Fixed::new_unscaled(24357, false)
+            Fixed::new_unscaled(9544, false),
+            Fixed::new_unscaled(22338, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14473, false),
-            Fixed::new_unscaled(4691, false)
+            Fixed::new_unscaled(478, false),
+            Fixed::new_unscaled(6553, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8233, false),
-            Fixed::new_unscaled(17518, false)
+            Fixed::new_unscaled(1276, false),
+            Fixed::new_unscaled(14691, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20841, false),
-            Fixed::new_unscaled(10802, false)
+            Fixed::new_unscaled(1230, false),
+            Fixed::new_unscaled(20441, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14513, false),
-            Fixed::new_unscaled(14474, false)
+            Fixed::new_unscaled(5303, false),
+            Fixed::new_unscaled(29357, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(224, false),
-            Fixed::new_unscaled(19507, false)
+            Fixed::new_unscaled(2188, false),
+            Fixed::new_unscaled(9257, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(26133, false),
-            Fixed::new_unscaled(21765, false)
+            Fixed::new_unscaled(11051, false),
+            Fixed::new_unscaled(18715, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8414, false),
-            Fixed::new_unscaled(26315, false)
+            Fixed::new_unscaled(30671, false),
+            Fixed::new_unscaled(24874, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28436, false),
-            Fixed::new_unscaled(20100, false)
+            Fixed::new_unscaled(18166, false),
+            Fixed::new_unscaled(10679, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31394, false),
-            Fixed::new_unscaled(4550, false)
+            Fixed::new_unscaled(466, false),
+            Fixed::new_unscaled(12010, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4443, false),
-            Fixed::new_unscaled(6017, false)
+            Fixed::new_unscaled(8200, false),
+            Fixed::new_unscaled(5139, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27569, false),
-            Fixed::new_unscaled(6607, false)
+            Fixed::new_unscaled(10413, false),
+            Fixed::new_unscaled(14589, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12076, false),
-            Fixed::new_unscaled(10831, false)
+            Fixed::new_unscaled(5281, false),
+            Fixed::new_unscaled(19177, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5468, false),
-            Fixed::new_unscaled(20419, false)
+            Fixed::new_unscaled(932, false),
+            Fixed::new_unscaled(23720, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2777, false),
-            Fixed::new_unscaled(11244, false)
+            Fixed::new_unscaled(2809, false),
+            Fixed::new_unscaled(718, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(21804, false),
-            Fixed::new_unscaled(1805, false)
+            Fixed::new_unscaled(5774, false),
+            Fixed::new_unscaled(18613, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5272, false),
-            Fixed::new_unscaled(31315, false)
+            Fixed::new_unscaled(77, false),
+            Fixed::new_unscaled(10480, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22951, false),
-            Fixed::new_unscaled(25257, false)
+            Fixed::new_unscaled(25840, false),
+            Fixed::new_unscaled(6541, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(2703, false),
-            Fixed::new_unscaled(14945, false)
+            Fixed::new_unscaled(25601, false),
+            Fixed::new_unscaled(22969, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15455, false),
-            Fixed::new_unscaled(29160, false)
+            Fixed::new_unscaled(16117, false),
+            Fixed::new_unscaled(31733, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17346, false),
-            Fixed::new_unscaled(28042, false)
+            Fixed::new_unscaled(10576, false),
+            Fixed::new_unscaled(14833, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(9567, false),
-            Fixed::new_unscaled(32211, false)
+            Fixed::new_unscaled(31282, false),
+            Fixed::new_unscaled(31666, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(10705, false),
-            Fixed::new_unscaled(32600, false)
+            Fixed::new_unscaled(23880, false),
+            Fixed::new_unscaled(1787, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1553, false),
-            Fixed::new_unscaled(30938, false)
+            Fixed::new_unscaled(14316, false),
+            Fixed::new_unscaled(30506, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(841, false),
-            Fixed::new_unscaled(19718, false)
+            Fixed::new_unscaled(22244, false),
+            Fixed::new_unscaled(9864, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13992, false),
-            Fixed::new_unscaled(8524, false)
+            Fixed::new_unscaled(26230, false),
+            Fixed::new_unscaled(12087, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(25830, false),
-            Fixed::new_unscaled(7870, false)
+            Fixed::new_unscaled(8550, false),
+            Fixed::new_unscaled(20001, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8418, false),
-            Fixed::new_unscaled(26253, false)
+            Fixed::new_unscaled(31940, false),
+            Fixed::new_unscaled(29127, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5235, false),
-            Fixed::new_unscaled(17477, false)
+            Fixed::new_unscaled(28024, false),
+            Fixed::new_unscaled(30861, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23937, false),
-            Fixed::new_unscaled(29906, false)
+            Fixed::new_unscaled(8118, false),
+            Fixed::new_unscaled(15436, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19086, false),
-            Fixed::new_unscaled(8658, false)
+            Fixed::new_unscaled(15872, false),
+            Fixed::new_unscaled(28928, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20309, false),
-            Fixed::new_unscaled(367, false)
+            Fixed::new_unscaled(13925, false),
+            Fixed::new_unscaled(3436, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29808, false),
-            Fixed::new_unscaled(26718, false)
+            Fixed::new_unscaled(16789, false),
+            Fixed::new_unscaled(11414, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17503, false),
-            Fixed::new_unscaled(1739, false)
+            Fixed::new_unscaled(7067, false),
+            Fixed::new_unscaled(3399, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22026, false),
-            Fixed::new_unscaled(31838, false)
+            Fixed::new_unscaled(10993, false),
+            Fixed::new_unscaled(21222, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29129, false),
-            Fixed::new_unscaled(22295, false)
+            Fixed::new_unscaled(29176, false),
+            Fixed::new_unscaled(9506, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17322, false),
-            Fixed::new_unscaled(7556, false)
+            Fixed::new_unscaled(14378, false),
+            Fixed::new_unscaled(32714, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27771, false),
-            Fixed::new_unscaled(13893, false)
+            Fixed::new_unscaled(32127, false),
+            Fixed::new_unscaled(16915, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24390, false),
-            Fixed::new_unscaled(21447, false)
+            Fixed::new_unscaled(15445, false),
+            Fixed::new_unscaled(7256, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20376, false),
-            Fixed::new_unscaled(21420, false)
+            Fixed::new_unscaled(3128, false),
+            Fixed::new_unscaled(16152, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13415, false),
-            Fixed::new_unscaled(20687, false)
+            Fixed::new_unscaled(486, false),
+            Fixed::new_unscaled(24380, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15839, false),
-            Fixed::new_unscaled(24657, false)
+            Fixed::new_unscaled(13769, false),
+            Fixed::new_unscaled(24539, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24880, false),
-            Fixed::new_unscaled(8639, false)
+            Fixed::new_unscaled(26504, false),
+            Fixed::new_unscaled(2329, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(863, false),
-            Fixed::new_unscaled(339, false)
+            Fixed::new_unscaled(29497, false),
+            Fixed::new_unscaled(8855, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14015, false),
-            Fixed::new_unscaled(30717, false)
+            Fixed::new_unscaled(9555, false),
+            Fixed::new_unscaled(3613, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(32219, false),
-            Fixed::new_unscaled(148, false)
+            Fixed::new_unscaled(2907, false),
+            Fixed::new_unscaled(29139, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(21266, false),
-            Fixed::new_unscaled(10444, false)
+            Fixed::new_unscaled(903, false),
+            Fixed::new_unscaled(14188, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28352, false),
-            Fixed::new_unscaled(19594, false)
+            Fixed::new_unscaled(1656, false),
+            Fixed::new_unscaled(31638, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(14288, false),
-            Fixed::new_unscaled(6621, false)
+            Fixed::new_unscaled(20861, false),
+            Fixed::new_unscaled(5092, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1728, false),
-            Fixed::new_unscaled(4736, false)
+            Fixed::new_unscaled(594, false),
+            Fixed::new_unscaled(14603, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5801, false),
-            Fixed::new_unscaled(25493, false)
+            Fixed::new_unscaled(28338, false),
+            Fixed::new_unscaled(501, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31332, false),
-            Fixed::new_unscaled(4523, false)
+            Fixed::new_unscaled(19403, false),
+            Fixed::new_unscaled(4378, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1995, false),
-            Fixed::new_unscaled(3120, false)
+            Fixed::new_unscaled(27583, false),
+            Fixed::new_unscaled(5342, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12697, false),
-            Fixed::new_unscaled(13327, false)
+            Fixed::new_unscaled(26168, false),
+            Fixed::new_unscaled(13785, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(777, false),
-            Fixed::new_unscaled(23962, false)
+            Fixed::new_unscaled(1562, false),
+            Fixed::new_unscaled(1563, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(25210, false),
-            Fixed::new_unscaled(31361, false)
+            Fixed::new_unscaled(30358, false),
+            Fixed::new_unscaled(21274, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19007, false),
-            Fixed::new_unscaled(31805, false)
+            Fixed::new_unscaled(2258, false),
+            Fixed::new_unscaled(24001, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19796, false),
-            Fixed::new_unscaled(29732, false)
+            Fixed::new_unscaled(31185, false),
+            Fixed::new_unscaled(16209, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30448, false),
-            Fixed::new_unscaled(24447, false)
+            Fixed::new_unscaled(23034, false),
+            Fixed::new_unscaled(22881, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16142, false),
-            Fixed::new_unscaled(31093, false)
+            Fixed::new_unscaled(29310, false),
+            Fixed::new_unscaled(1313, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28045, false),
-            Fixed::new_unscaled(27312, false)
+            Fixed::new_unscaled(5665, false),
+            Fixed::new_unscaled(3988, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13446, false),
-            Fixed::new_unscaled(31544, false)
+            Fixed::new_unscaled(3463, false),
+            Fixed::new_unscaled(11088, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5776, false),
-            Fixed::new_unscaled(20197, false)
+            Fixed::new_unscaled(589, false),
+            Fixed::new_unscaled(3388, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1029, false),
-            Fixed::new_unscaled(826, false)
+            Fixed::new_unscaled(21534, false),
+            Fixed::new_unscaled(30452, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(32537, false),
-            Fixed::new_unscaled(16781, false)
+            Fixed::new_unscaled(17190, false),
+            Fixed::new_unscaled(17990, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30384, false),
-            Fixed::new_unscaled(26013, false)
+            Fixed::new_unscaled(27184, false),
+            Fixed::new_unscaled(24443, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20576, false),
-            Fixed::new_unscaled(14552, false)
+            Fixed::new_unscaled(3561, false),
+            Fixed::new_unscaled(8553, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(611, false),
-            Fixed::new_unscaled(21657, false)
+            Fixed::new_unscaled(17215, false),
+            Fixed::new_unscaled(14674, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(3600, false),
-            Fixed::new_unscaled(15762, false)
+            Fixed::new_unscaled(14179, false),
+            Fixed::new_unscaled(23397, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(26288, false),
-            Fixed::new_unscaled(26071, false)
+            Fixed::new_unscaled(1021, false),
+            Fixed::new_unscaled(4864, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17904, false),
-            Fixed::new_unscaled(8961, false)
+            Fixed::new_unscaled(22837, false),
+            Fixed::new_unscaled(11533, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(31659, false),
-            Fixed::new_unscaled(21283, false)
+            Fixed::new_unscaled(9683, false),
+            Fixed::new_unscaled(11895, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24413, false),
-            Fixed::new_unscaled(19063, false)
+            Fixed::new_unscaled(23055, false),
+            Fixed::new_unscaled(13298, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(25331, false),
-            Fixed::new_unscaled(9478, false)
+            Fixed::new_unscaled(5982, false),
+            Fixed::new_unscaled(29545, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30080, false),
+            Fixed::new_unscaled(29241, false),
+            Fixed::new_unscaled(19685, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9783, false),
+            Fixed::new_unscaled(7329, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29548, false),
+            Fixed::new_unscaled(26691, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28484, false),
+            Fixed::new_unscaled(28894, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24934, false),
+            Fixed::new_unscaled(14288, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11184, false),
+            Fixed::new_unscaled(15431, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19484, false),
+            Fixed::new_unscaled(11052, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10670, false),
+            Fixed::new_unscaled(16079, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12235, false),
+            Fixed::new_unscaled(12892, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31294, false),
+            Fixed::new_unscaled(959, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9631, false),
+            Fixed::new_unscaled(21425, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1706, false),
+            Fixed::new_unscaled(20380, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4057, false),
+            Fixed::new_unscaled(7476, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16033, false),
+            Fixed::new_unscaled(371, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32667, false),
+            Fixed::new_unscaled(7337, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14950, false),
+            Fixed::new_unscaled(30349, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(754, false),
+            Fixed::new_unscaled(2653, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15799, false),
+            Fixed::new_unscaled(20215, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24486, false),
+            Fixed::new_unscaled(6039, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31988, false),
+            Fixed::new_unscaled(24250, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12675, false),
+            Fixed::new_unscaled(11266, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22662, false),
+            Fixed::new_unscaled(482, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4040, false),
+            Fixed::new_unscaled(781, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8986, false),
+            Fixed::new_unscaled(16104, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2632, false),
+            Fixed::new_unscaled(12751, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4911, false),
+            Fixed::new_unscaled(21319, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12646, false),
+            Fixed::new_unscaled(22075, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19249, false),
+            Fixed::new_unscaled(14108, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24028, false),
+            Fixed::new_unscaled(6291, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12, false),
+            Fixed::new_unscaled(4221, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16041, false),
+            Fixed::new_unscaled(6407, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18251, false),
+            Fixed::new_unscaled(31900, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23887, false),
+            Fixed::new_unscaled(3264, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7699, false),
+            Fixed::new_unscaled(7112, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19280, false),
+            Fixed::new_unscaled(16737, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9802, false),
+            Fixed::new_unscaled(16325, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12316, false),
+            Fixed::new_unscaled(1420, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(17922, false),
+            Fixed::new_unscaled(13631, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2513, false),
+            Fixed::new_unscaled(30597, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7671, false),
+            Fixed::new_unscaled(27637, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20532, false),
+            Fixed::new_unscaled(1271, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19743, false),
+            Fixed::new_unscaled(5196, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22115, false),
+            Fixed::new_unscaled(4072, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1642, false),
+            Fixed::new_unscaled(16810, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30951, false),
+            Fixed::new_unscaled(31291, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3597, false),
+            Fixed::new_unscaled(5677, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25160, false),
+            Fixed::new_unscaled(31652, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22, false),
+            Fixed::new_unscaled(29837, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13082, false),
+            Fixed::new_unscaled(11464, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26595, false),
+            Fixed::new_unscaled(21329, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16386, false),
+            Fixed::new_unscaled(8832, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31920, false),
+            Fixed::new_unscaled(21675, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18249, false),
+            Fixed::new_unscaled(11586, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32261, false),
+            Fixed::new_unscaled(21582, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26945, false),
+            Fixed::new_unscaled(20189, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19525, false),
+            Fixed::new_unscaled(22074, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(273, false),
+            Fixed::new_unscaled(8087, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(538, false),
+            Fixed::new_unscaled(4025, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12796, false),
+            Fixed::new_unscaled(14417, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(6994, false),
+            Fixed::new_unscaled(7037, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20732, false),
+            Fixed::new_unscaled(17072, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7347, false),
+            Fixed::new_unscaled(2728, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(27819, false),
+            Fixed::new_unscaled(1352, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29873, false),
+            Fixed::new_unscaled(9028, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12667, false),
+            Fixed::new_unscaled(22217, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18854, false),
+            Fixed::new_unscaled(31104, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(22924, false),
+            Fixed::new_unscaled(11911, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29234, false),
+            Fixed::new_unscaled(24319, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(74, false),
+            Fixed::new_unscaled(18517, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7119, false),
+            Fixed::new_unscaled(31191, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4193, false),
+            Fixed::new_unscaled(32280, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30856, false),
+            Fixed::new_unscaled(32118, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16412, false),
+            Fixed::new_unscaled(10856, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24355, false),
+            Fixed::new_unscaled(10289, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10714, false),
+            Fixed::new_unscaled(77, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28735, false),
+            Fixed::new_unscaled(440, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2383, false),
+            Fixed::new_unscaled(21380, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10761, false),
+            Fixed::new_unscaled(7511, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8237, false),
+            Fixed::new_unscaled(8883, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5718, false),
+            Fixed::new_unscaled(23996, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26008, false),
+            Fixed::new_unscaled(15108, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(27747, false),
+            Fixed::new_unscaled(6602, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21641, false),
+            Fixed::new_unscaled(24207, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30865, false),
+            Fixed::new_unscaled(6696, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3416, false),
+            Fixed::new_unscaled(6537, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20604, false),
+            Fixed::new_unscaled(8419, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7633, false),
+            Fixed::new_unscaled(6196, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8235, false),
+            Fixed::new_unscaled(42, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1196, false),
+            Fixed::new_unscaled(19689, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(1597, false),
+            Fixed::new_unscaled(29738, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11776, false),
+            Fixed::new_unscaled(24456, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2095, false),
+            Fixed::new_unscaled(31911, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31504, false),
+            Fixed::new_unscaled(9314, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29489, false),
+            Fixed::new_unscaled(22162, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21833, false),
+            Fixed::new_unscaled(32725, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26784, false),
             Fixed::new_unscaled(14621, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(12952, false),
-            Fixed::new_unscaled(27963, false)
+            Fixed::new_unscaled(12762, false),
+            Fixed::new_unscaled(22843, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18872, false),
-            Fixed::new_unscaled(23681, false)
+            Fixed::new_unscaled(15551, false),
+            Fixed::new_unscaled(5653, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(347, false),
-            Fixed::new_unscaled(21847, false)
+            Fixed::new_unscaled(24887, false),
+            Fixed::new_unscaled(2929, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24011, false),
-            Fixed::new_unscaled(25577, false)
+            Fixed::new_unscaled(13680, false),
+            Fixed::new_unscaled(1906, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27416, false),
+            Fixed::new_unscaled(32033, false),
+            Fixed::new_unscaled(2425, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2866, false),
             Fixed::new_unscaled(4960, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1583, false),
-            Fixed::new_unscaled(16461, false)
+            Fixed::new_unscaled(23705, false),
+            Fixed::new_unscaled(14288, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(4669, false),
-            Fixed::new_unscaled(24636, false)
+            Fixed::new_unscaled(6966, false),
+            Fixed::new_unscaled(22084, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24888, false),
-            Fixed::new_unscaled(25230, false)
+            Fixed::new_unscaled(9036, false),
+            Fixed::new_unscaled(15593, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20588, false),
-            Fixed::new_unscaled(28310, false)
+            Fixed::new_unscaled(6808, false),
+            Fixed::new_unscaled(5909, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(22877, false),
-            Fixed::new_unscaled(11230, false)
+            Fixed::new_unscaled(19466, false),
+            Fixed::new_unscaled(1322, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(17715, false),
-            Fixed::new_unscaled(17626, false)
+            Fixed::new_unscaled(30744, false),
+            Fixed::new_unscaled(71, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8254, false),
-            Fixed::new_unscaled(12319, false)
+            Fixed::new_unscaled(3682, false),
+            Fixed::new_unscaled(25366, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28884, false),
-            Fixed::new_unscaled(19103, false)
+            Fixed::new_unscaled(11604, false),
+            Fixed::new_unscaled(25412, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(32497, false),
-            Fixed::new_unscaled(13072, false)
+            Fixed::new_unscaled(19113, false),
+            Fixed::new_unscaled(24895, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(24422, false),
-            Fixed::new_unscaled(4164, false)
+            Fixed::new_unscaled(4399, false),
+            Fixed::new_unscaled(23720, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23155, false),
-            Fixed::new_unscaled(12616, false)
+            Fixed::new_unscaled(19244, false),
+            Fixed::new_unscaled(22995, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8450, false),
-            Fixed::new_unscaled(22908, false)
+            Fixed::new_unscaled(1568, false),
+            Fixed::new_unscaled(691, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23618, false),
-            Fixed::new_unscaled(19719, false)
+            Fixed::new_unscaled(31135, false),
+            Fixed::new_unscaled(27456, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15207, false),
-            Fixed::new_unscaled(30354, false)
+            Fixed::new_unscaled(5110, false),
+            Fixed::new_unscaled(8099, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20141, false),
-            Fixed::new_unscaled(2595, false)
+            Fixed::new_unscaled(22126, false),
+            Fixed::new_unscaled(17709, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18727, false),
-            Fixed::new_unscaled(13414, false)
+            Fixed::new_unscaled(28231, false),
+            Fixed::new_unscaled(24904, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(9092, false),
-            Fixed::new_unscaled(30127, false)
+            Fixed::new_unscaled(10701, false),
+            Fixed::new_unscaled(31942, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(15088, false),
-            Fixed::new_unscaled(664, false)
+            Fixed::new_unscaled(31317, false),
+            Fixed::new_unscaled(16443, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(20948, false),
-            Fixed::new_unscaled(28406, false)
+            Fixed::new_unscaled(12371, false),
+            Fixed::new_unscaled(32467, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(7158, false),
-            Fixed::new_unscaled(31474, false)
+            Fixed::new_unscaled(14595, false),
+            Fixed::new_unscaled(8556, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27798, false),
-            Fixed::new_unscaled(3160, false)
+            Fixed::new_unscaled(5748, false),
+            Fixed::new_unscaled(24161, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16467, false),
-            Fixed::new_unscaled(23868, false)
+            Fixed::new_unscaled(6508, false),
+            Fixed::new_unscaled(23348, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(9387, false),
-            Fixed::new_unscaled(173, false)
+            Fixed::new_unscaled(26276, false),
+            Fixed::new_unscaled(11276, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18358, false),
-            Fixed::new_unscaled(32329, false)
+            Fixed::new_unscaled(32008, false),
+            Fixed::new_unscaled(12951, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(21315, false),
-            Fixed::new_unscaled(22896, false)
+            Fixed::new_unscaled(18290, false),
+            Fixed::new_unscaled(6945, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(28367, false),
-            Fixed::new_unscaled(24494, false)
+            Fixed::new_unscaled(17754, false),
+            Fixed::new_unscaled(28580, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30681, false),
-            Fixed::new_unscaled(26645, false)
+            Fixed::new_unscaled(5030, false),
+            Fixed::new_unscaled(22917, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(13759, false),
-            Fixed::new_unscaled(688, false)
+            Fixed::new_unscaled(2960, false),
+            Fixed::new_unscaled(10386, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19274, false),
-            Fixed::new_unscaled(11976, false)
+            Fixed::new_unscaled(7189, false),
+            Fixed::new_unscaled(32128, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(23018, false),
-            Fixed::new_unscaled(24082, false)
+            Fixed::new_unscaled(28625, false),
+            Fixed::new_unscaled(7735, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(29340, false),
-            Fixed::new_unscaled(27031, false)
+            Fixed::new_unscaled(21379, false),
+            Fixed::new_unscaled(29967, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(5791, false),
-            Fixed::new_unscaled(24151, false)
+            Fixed::new_unscaled(22826, false),
+            Fixed::new_unscaled(20707, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8182, false),
-            Fixed::new_unscaled(28597, false)
+            Fixed::new_unscaled(19404, false),
+            Fixed::new_unscaled(12504, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18454, false),
-            Fixed::new_unscaled(26484, false)
+            Fixed::new_unscaled(18053, false),
+            Fixed::new_unscaled(15166, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(18394, false),
-            Fixed::new_unscaled(19558, false)
+            Fixed::new_unscaled(6466, false),
+            Fixed::new_unscaled(27859, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(27093, false),
-            Fixed::new_unscaled(1416, false)
+            Fixed::new_unscaled(15923, false),
+            Fixed::new_unscaled(27754, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(8379, false),
-            Fixed::new_unscaled(9793, false)
+            Fixed::new_unscaled(16806, false),
+            Fixed::new_unscaled(11819, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(1444, false),
-            Fixed::new_unscaled(18038, false)
+            Fixed::new_unscaled(8970, false),
+            Fixed::new_unscaled(28350, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30576, false),
-            Fixed::new_unscaled(28735, false)
+            Fixed::new_unscaled(20524, false),
+            Fixed::new_unscaled(13332, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(19607, false),
-            Fixed::new_unscaled(6477, false)
+            Fixed::new_unscaled(237, false),
+            Fixed::new_unscaled(14327, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(6309, false),
-            Fixed::new_unscaled(20000, false)
+            Fixed::new_unscaled(6889, false),
+            Fixed::new_unscaled(23478, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(16528, false),
-            Fixed::new_unscaled(7027, false)
+            Fixed::new_unscaled(3410, false),
+            Fixed::new_unscaled(13910, false)
         ).print();
 box_muller_transform_sin(
-            Fixed::new_unscaled(30896, false),
-            Fixed::new_unscaled(5145, false)
+            Fixed::new_unscaled(14767, false),
+            Fixed::new_unscaled(28071, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13775, false),
+            Fixed::new_unscaled(13030, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21640, false),
+            Fixed::new_unscaled(22762, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7256, false),
+            Fixed::new_unscaled(14196, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19865, false),
+            Fixed::new_unscaled(13106, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14510, false),
+            Fixed::new_unscaled(17751, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24264, false),
+            Fixed::new_unscaled(12814, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11631, false),
+            Fixed::new_unscaled(19605, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(28164, false),
+            Fixed::new_unscaled(12578, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7579, false),
+            Fixed::new_unscaled(5522, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4308, false),
+            Fixed::new_unscaled(14219, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(17508, false),
+            Fixed::new_unscaled(17128, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26003, false),
+            Fixed::new_unscaled(11528, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12176, false),
+            Fixed::new_unscaled(26454, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26686, false),
+            Fixed::new_unscaled(22485, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10295, false),
+            Fixed::new_unscaled(15711, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23948, false),
+            Fixed::new_unscaled(10724, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5471, false),
+            Fixed::new_unscaled(15831, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18682, false),
+            Fixed::new_unscaled(5140, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7084, false),
+            Fixed::new_unscaled(1142, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15345, false),
+            Fixed::new_unscaled(28214, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13702, false),
+            Fixed::new_unscaled(9305, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20292, false),
+            Fixed::new_unscaled(11742, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(10466, false),
+            Fixed::new_unscaled(18535, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(31664, false),
+            Fixed::new_unscaled(5285, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24933, false),
+            Fixed::new_unscaled(21949, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18388, false),
+            Fixed::new_unscaled(5374, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21610, false),
+            Fixed::new_unscaled(17177, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(4996, false),
+            Fixed::new_unscaled(16494, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30615, false),
+            Fixed::new_unscaled(23806, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3499, false),
+            Fixed::new_unscaled(24850, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23123, false),
+            Fixed::new_unscaled(17403, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19132, false),
+            Fixed::new_unscaled(6076, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20439, false),
+            Fixed::new_unscaled(25552, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25018, false),
+            Fixed::new_unscaled(18036, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15128, false),
+            Fixed::new_unscaled(4748, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11930, false),
+            Fixed::new_unscaled(1379, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(26881, false),
+            Fixed::new_unscaled(7291, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20318, false),
+            Fixed::new_unscaled(27803, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7941, false),
+            Fixed::new_unscaled(19245, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29818, false),
+            Fixed::new_unscaled(24809, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(18766, false),
+            Fixed::new_unscaled(5383, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7181, false),
+            Fixed::new_unscaled(31284, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13169, false),
+            Fixed::new_unscaled(8163, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15743, false),
+            Fixed::new_unscaled(541, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(27846, false),
+            Fixed::new_unscaled(10830, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(15029, false),
+            Fixed::new_unscaled(1934, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25840, false),
+            Fixed::new_unscaled(15283, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12974, false),
+            Fixed::new_unscaled(20567, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(29775, false),
+            Fixed::new_unscaled(27026, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(2010, false),
+            Fixed::new_unscaled(14503, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14048, false),
+            Fixed::new_unscaled(6889, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(19782, false),
+            Fixed::new_unscaled(20305, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(5087, false),
+            Fixed::new_unscaled(3182, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(30314, false),
+            Fixed::new_unscaled(18573, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(32296, false),
+            Fixed::new_unscaled(29403, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7558, false),
+            Fixed::new_unscaled(8364, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(11291, false),
+            Fixed::new_unscaled(29510, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(20062, false),
+            Fixed::new_unscaled(20318, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(9972, false),
+            Fixed::new_unscaled(9879, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(14729, false),
+            Fixed::new_unscaled(24940, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(7060, false),
+            Fixed::new_unscaled(273, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(24646, false),
+            Fixed::new_unscaled(26828, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(13844, false),
+            Fixed::new_unscaled(28889, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(25827, false),
+            Fixed::new_unscaled(3445, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(3214, false),
+            Fixed::new_unscaled(6668, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(23599, false),
+            Fixed::new_unscaled(21127, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(8122, false),
+            Fixed::new_unscaled(20936, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(12243, false),
+            Fixed::new_unscaled(3205, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(21257, false),
+            Fixed::new_unscaled(22486, false)
+        ).print();
+box_muller_transform_sin(
+            Fixed::new_unscaled(16251, false),
+            Fixed::new_unscaled(15643, false)
         ).print();
 }
