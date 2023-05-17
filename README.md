@@ -16,12 +16,12 @@ and
 
 $Z_1=Rsin(\theta) = \sqrt{-2lnU_1}sin(U_22\pi)$
 
-In this work we present a cairo function that ingests $Z_0$ and $Z_1$ from an oracle and returns their normal PDF:
+The Box-Muller transform of $Z_0$ and $Z_1$ gives their normal PDF:
 ![normal curve](./img/dist.gif)
 
 ## Laplace Distribution: 
 
-The Laplace pdf is defined as: $f(x | \mu, b) = \frac{1}{2b}exp\left ( -\frac{|x-\mu|}{b}  \right )$ and is a critical source of noise used in privacy mechanisms such as DP-SGD.
+The Laplace pdf is defined as: $f(x | \mu, b) = \frac{1}{2b}exp\left ( -\frac{|x-\mu|}{b}  \right )$ and is a critical source of noise used in privacy mechanisms such as DP-SGD:
 
 ![laplace curve](./img/lap_dist.gif)
 
