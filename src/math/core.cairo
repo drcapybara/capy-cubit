@@ -15,6 +15,7 @@ use cubit::types::fixed::FixedNeg;
 use cubit::types::fixed::FixedType;
 use cubit::types::fixed::ONE_u128;
 use cubit::types::fixed::HALF_u128;
+use cubit::types::fixed::MAX_u128;
 
 
 fn add(a: FixedType, b: FixedType) -> FixedType {
@@ -52,7 +53,9 @@ fn div(a: FixedType, b: FixedType) -> FixedType {
 
 // Calculate a!, only for positive integers
 fn factorial(a: FixedType) -> FixedType {
-    if a == Fixed::new_unscaled(0, false) {
+    if a == Fixed::new_unscaled(
+        0, false
+    ) {
         Fixed::new_unscaled(1, false)
     } else {
         a * factorial(a - Fixed::new_unscaled(1, false))
@@ -77,13 +80,21 @@ fn eq(a: FixedType, b: FixedType) -> bool {
 
 // Calculates the natural exponent of x: e^x
 fn exp(a: FixedType) -> FixedType {
-    return exp2(Fixed::new(26613026195688644984_u128, false) * a);
+    if (a.mag >= MAX_u128) {
+        // Handle overflow by returning the maximum representable value
+        return FixedType { mag: MAX_u128, sign: a.sign };
+    } else {
+        return exp2(Fixed::new(26613026195688644984_u128, false) * a);
+    }
 }
 
 // Calculates the binary exponent of x: 2^x
 fn exp2(a: FixedType) -> FixedType {
     if (a.mag == 0_u128) {
         return Fixed::new(ONE_u128, false);
+    } else if (a.mag >= MAX_u128) {
+        // Handle overflow by returning the maximum representable value
+        return FixedType { mag: MAX_u128, sign: a.sign };
     }
 
     let (int_part, frac_part) = _split_unsigned(a);

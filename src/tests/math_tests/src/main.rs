@@ -5,14 +5,14 @@ use rand::rngs::OsRng;
 use rand::{Rng, SeedableRng};
 use rand::rngs::StdRng;
 
-const NUM_SAMPLES: usize = 1;
+const NUM_SAMPLES: usize = 1000;
 
 fn generate_random_numbers() -> [i16; NUM_SAMPLES] {
     let mut rng = StdRng::from_entropy();
     let mut result = [0i16; NUM_SAMPLES];
     
     for i in 0..NUM_SAMPLES {
-        result[i] = rng.gen_range(-10..=10);
+        result[i] = rng.gen_range(-20..=20);
     }
     
     result
@@ -54,11 +54,20 @@ fn run_laplace_pdf_tests(numbers: &[i16; NUM_SAMPLES]) -> io::Result<()> {
     fn test_laplace_pdf() {{")?;
 
     for chunk in numbers.chunks_exact(2) {
-        writeln!(file, "laplace_pdf(
+        let a = chunk[0];
+        if a > 0 {
+            writeln!(file, "laplace_pdf(
             Fixed::new_unscaled({}, false),
             Fixed::new_unscaled({}, false),
             Fixed::new_unscaled({}, false)
-        ).print();", chunk[0].abs(), 0, 1)?;
+        ).print();", a.abs(), 0, 1)?;}
+        else {
+            writeln!(
+            file, "laplace_pdf(
+            Fixed::new_unscaled({}, true),
+            Fixed::new_unscaled({}, false),
+            Fixed::new_unscaled({}, false)
+        ).print();", a.abs(), 0, 1)?;}
     }
     writeln!(file, "}}")?;
     Ok(())

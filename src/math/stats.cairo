@@ -16,6 +16,5 @@ fn box_muller_transform_sin(u1: FixedType, u2: FixedType) -> FixedType {
 }
 
 fn laplace_pdf(x: FixedType, u: FixedType, b: FixedType) -> FixedType {
-    (-(x - u).abs() / b).exp() / Fixed::new_unscaled(2, false) * b
-    // (-(x - u).abs() / b).exp() / Fixed::new_unscaled(2, false) * b
+    ((-(x - u).abs() / b).exp()) / (Fixed::new_unscaled(2, false) * b)
 }
