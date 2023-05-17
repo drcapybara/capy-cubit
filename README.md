@@ -1,4 +1,4 @@
-# capyCUBIT v1.0 
+# capyCUBIT v1.0 - Additive Noise Mechanisms
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/auditless/cairo-template/blob/main/LICENSE) <a href="https://github.com/drcapybara/capy-cubit/actions/workflows/test.yml"> <img src="https://github.com/drcapybara/capy-cubit/actions/workflows/test.yml/badge.svg?event=push" alt="CI Badge"/> </a>
 
@@ -6,9 +6,9 @@
 
 [Adapted from **`cubit`**](https://github.com/whatthedev-eth/cubit)
 
-## Box-Muller Transform  
+## Box-Muller Transform for Gaussian Noise
 
-The Box-Muller transform is a means of ingesting two uniformly distrubuted variables U1 and U2:
+Uniform random variables $Z_0$ and $Z_1$ have a normal distribution if their probability density functions are:
 
 $Z_0=Rcos(\theta) = \sqrt{-2lnU_1}cos(U_22\pi)$
 
@@ -16,14 +16,19 @@ and
 
 $Z_1=Rsin(\theta) = \sqrt{-2lnU_1}sin(U_22\pi)$
 
+In this work we present a cairo function that ingests $Z_0$ and $Z_1$ from an oracle and returns their normal PDF:
+![normal curve](./img/dist.gif)
 
-And returning two independent normally distributed variables as a result. This gaussian noise is an important tool in privacy-preserving mechanisms such as DP-SGD for machine learning. We present here the first known example of the Box-Muller transform in the Cairo programming language built with ZK-STARK technology, directly leading to a zero knowledge circuit for provable gaussian noise generation. 
+## Laplace Distribution: 
+
+The Laplace pdf is defined as: $f(x | \mu, b) = \frac{1}{2b}exp\left ( -\frac{|x-\mu|}{b}  \right )$ and is a critical source of noise used in privacy mechanisms such as DP-SGD.
+
+![laplace curve](./img/lap_dist.gif)
 
 ## Methodologies:
 
-We generate 1000 cryptographically secure random i16 values in rust before passing them into the cairo function. These values can be found in the tests repo. Even for a small sample size, we can observe the normal curve taking shape:
+We generate 1000 cryptographically secure random i16 values in a rust oracle which are then piped into Cairo source code and executed in bash. This is the first known example of additive noise mechanisms for the Cairo programming language using ZK-STARK technology.
 
-![normal curve](./img/dist.gif)
 
 ## Usage
 
