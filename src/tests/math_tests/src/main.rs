@@ -2,18 +2,24 @@ use std::fs::File;
 use std::io::{self, Write};
 use rand::RngCore;
 use rand::rngs::OsRng;
+use rand::{Rng, SeedableRng};
+use rand::rngs::StdRng;
 
-const NUM_SAMPLES: usize = 1000;
+const NUM_SAMPLES: usize = 1;
 
 fn generate_random_numbers() -> [i16; NUM_SAMPLES] {
-    let mut rng = OsRng::default();
+    let mut rng = StdRng::from_entropy();
     let mut result = [0i16; NUM_SAMPLES];
-    rng.fill_bytes(bytemuck::cast_slice_mut(&mut result));
+    
+    for i in 0..NUM_SAMPLES {
+        result[i] = rng.gen_range(-10..=10);
+    }
+    
     result
 }
 
-fn write_numbers_two_at_a_time(numbers: &[i16; NUM_SAMPLES]) -> io::Result<()> {
-    let mut file = File::create("../stats_tests.cairo")?;
+fn run_box_muller_tests(numbers: &[i16; NUM_SAMPLES]) -> io::Result<()> {
+    let mut file = File::create("../box_muller_tests.cairo")?;
     
     writeln!(file, 
    "use core::debug::PrintTrait;
@@ -35,9 +41,34 @@ fn write_numbers_two_at_a_time(numbers: &[i16; NUM_SAMPLES]) -> io::Result<()> {
     Ok(())
 }
 
+fn run_laplace_pdf_tests(numbers: &[i16; NUM_SAMPLES]) -> io::Result<()> {
+    let mut file = File::create("../laplace_pdf_tests.cairo")?;
+    
+    writeln!(file, 
+   "use core::debug::PrintTrait;
+    use cubit::types::fixed::Fixed;
+    use cubit::math::stats::laplace_pdf;
+    
+    #[test]
+    #[available_gas(999999999999999)]
+    fn test_laplace_pdf() {{")?;
+
+    for chunk in numbers.chunks_exact(2) {
+        writeln!(file, "laplace_pdf(
+            Fixed::new_unscaled({}, false),
+            Fixed::new_unscaled({}, false),
+            Fixed::new_unscaled({}, false)
+        ).print();", chunk[0].abs(), 0, 1)?;
+    }
+    writeln!(file, "}}")?;
+    Ok(())
+}
+
+
+
 fn main() -> io::Result<()> {
     let random_numbers = generate_random_numbers();
-    write_numbers_two_at_a_time(&random_numbers)?;
-    
+    // run_box_muller_tests(&random_numbers)?;
+    run_laplace_pdf_tests(&random_numbers)?;
     Ok(())
 }
