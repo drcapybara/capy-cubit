@@ -14,7 +14,7 @@ $Z_0=Rcos(\theta) = \sqrt{-2lnU_1}cos(U_22\pi)$
 
 and
 
-$Z_0=Rsin(\theta) = \sqrt{-2lnU_1}sin(U_22\pi)$
+$Z_1=Rsin(\theta) = \sqrt{-2lnU_1}sin(U_22\pi)$
 
 
 And returning two independent normally distributed variables as a result. This gaussian noise is an important tool in privacy-preserving mechanisms such as DP-SGD for machine learning. We present here the first known example of the Box-Muller transform in the Cairo programming language built with ZK-STARK technology, directly leading to a zero knowledge circuit for provable gaussian noise generation. 
