@@ -17,7 +17,7 @@ and
 $Z_1=Rsin(\theta) = \sqrt{-2lnU_1}sin(U_22\pi)$
 
 The Box-Muller transform of $Z_0$ and $Z_1$ gives their normal PDF:
-![normal curve](./img/dist.gif)
+![normal curve](./img/dist2.gif)
 
 ## Laplace Distribution: 
 
